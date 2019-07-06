@@ -71,8 +71,8 @@ public class Solution {
 
         for (int i = 0; i < array.length; i++) {
             String s = array[i];
-            boolean stringIsNumber = isNumber(s);
-            if (stringIsNumber) {
+            boolean stringOrNumber = isNumber(s);
+            if (stringOrNumber) {
                 int c = Integer.parseInt(s);
                 arrayListInt.add(c);
                 numberInt[i] = i + 1;
