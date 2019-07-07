@@ -59,7 +59,7 @@ public class Solution {
             for (int i = 0; i < 1000; i++) {
                 Note.addNote(getName() + "-Note" + i);
                 try {
-                    sleep(1);
+                    Thread.sleep(1);
                 } catch (InterruptedException e) {
 
                 }
