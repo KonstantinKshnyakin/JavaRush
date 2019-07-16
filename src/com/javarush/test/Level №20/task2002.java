@@ -29,8 +29,8 @@ public class Solution {
         //вы можете найти your_file_name.tmp в папке TMP или исправьте outputStream/inputStream в соответствии с путем к вашему реальному файлу
         try {
             File yourFile = File.createTempFile("your_file_name", null);
-            OutputStream outputStream = new FileOutputStream("C:\\Users\\Светлана\\Desktop\\Java Test\\input.txt");
-            InputStream inputStream = new FileInputStream("C:\\Users\\Светлана\\Desktop\\Java Test\\input.txt");
+            OutputStream outputStream = new FileOutputStream("C:\\Users\\Кот\\Desktop\\Java Test\\input.txt");
+            InputStream inputStream = new FileInputStream("C:\\Users\\Кот\\Desktop\\Java Test\\input.txt");
 
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd MM yyyy");
             JavaRush javaRush = new JavaRush();
