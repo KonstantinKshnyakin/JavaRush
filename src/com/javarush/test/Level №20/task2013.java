@@ -84,12 +84,12 @@ public class Solution {
         person.setFather(new Person("Aleksandr", "Ivanov", 68));
         person.setMother(new Person("Aleksandra", "Ivanova", 64));
 
-        ObjectOutput objectOutput = new ObjectOutputStream(new FileOutputStream("C:\\Users\\Светлана\\Desktop\\Java Test\\input.txt"));
+        ObjectOutput objectOutput = new ObjectOutputStream(new FileOutputStream("C:\\Users\\Кот\\Desktop\\Java Test\\input.txt"));
         person.writeExternal(objectOutput);
         objectOutput.flush();
 
 
-        ObjectInput objectInput = new ObjectInputStream(new FileInputStream("C:\\Users\\Светлана\\Desktop\\Java Test\\input.txt"));
+        ObjectInput objectInput = new ObjectInputStream(new FileInputStream("C:\\Users\\Кот\\Desktop\\Java Test\\input.txt"));
         Person person1 = new Person();
         person1.readExternal(objectInput);
 
